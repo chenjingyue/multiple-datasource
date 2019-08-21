@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.my_springboot_learn.mapper.test1.UserTest1Mapper">
+
+
+    <!--获取全部User-->
+    <select id="selectAllUser" resultType="com.example.my_springboot_learn.model.User">
+        SELECT * FROM user_info
+    </select>
+
+</mapper>
